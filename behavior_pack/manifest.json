@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mob Possession",
+		"description": "Right-click a mob to possess it, sneak to get out. By Kaius Cole.",
+		"uuid": "7aefb16b-bc02-45d5-831b-2278dfe43304",
+		"version": [0, 1, 0],
+		"min_engine_version": [1, 26, 50]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "8919c8a8-93c1-487f-add7-0ab832a7fc38",
+			"version": [0, 1, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "a3e0c481-e670-40ec-b662-61c9564cfc36",
+			"version": [0, 1, 0],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.10.0"
+		}
+	]
+}

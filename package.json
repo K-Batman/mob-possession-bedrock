@@ -1,0 +1,14 @@
+{
+	"name": "mob-possession-bedrock",
+	"version": "0.1.0",
+	"description": "Bedrock add-on: right-click a mob to possess it, sneak to get out.",
+	"private": true,
+	"scripts": {
+		"typecheck": "tsc --noEmit -p tsconfig.json"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@minecraft/server": "2.10.0",
+		"typescript": "^5.9.0"
+	}
+}
