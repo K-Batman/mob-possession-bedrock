@@ -154,6 +154,7 @@
 			},
 
 			"mobpossession:possessed": {
+				"minecraft:is_tamed": {},
 				"minecraft:rideable": {
 					"seat_count": 1,
 					"family_types": ["player"],
